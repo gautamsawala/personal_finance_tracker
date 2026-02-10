@@ -21,6 +21,11 @@ High level architecture is as follows:
 2. State management layer (lib/bloc) - Cubits + States (business logic and UI state)
 3. Data layer (lib/data) - Repository, Data Source (SQLite + Shared Preferences)
 
+## UI Ideation
+
+![Home Page](pft_home_page.png)
+![Add Income/ Expense Modal](pft_add_expense_income.png)
+
 ## Trade-offs
 - I prefer having Widget(onPressed()/onTap() -> onTop) followed by other parameters. It is not consistent in this project.
 - The UI has been rendered on Pixel 7. It has not been tested for overflows for smaller screens.
