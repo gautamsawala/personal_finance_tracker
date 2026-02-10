@@ -23,8 +23,9 @@ High level architecture is as follows:
 
 ## UI Ideation
 
-![Home Page](pft_home_page.png)
-![Add Income/ Expense Modal](pft_add_expense_income.png)
+<img src="https://github.com/gautamsawala/personal_finance_tracker/blob/master/pft_home_page.png?raw=true" alt="Home Page" width="400"/>
+
+<img src="https://github.com/gautamsawala/personal_finance_tracker/blob/master/pft_add_expense_income.png?raw=true" alt="Add Income/ Expense Modal" width="400"/>
 
 ## Trade-offs
 - I prefer having Widget(onPressed()/onTap() -> onTop) followed by other parameters. It is not consistent in this project.
