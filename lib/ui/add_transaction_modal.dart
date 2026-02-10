@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+
 import '../data/models/categories.dart';
 import '../data/models/transaction_model.dart';
 
@@ -50,7 +51,6 @@ class _AddTransactionModalState extends State<AddTransactionModal> {
   int? _parseAmountToCents(String amount) {
     /// Provides support for both . and , as decimal separator
     final normalize = amount.trim().replaceAll(',', '.');
-    print('The normalized amount is: $normalize');
     final normalizedAmount = double.tryParse(normalize);
     if (normalizedAmount == null) return null;
     return (normalizedAmount * 100).round();

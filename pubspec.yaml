@@ -41,6 +41,9 @@ dependencies:
   flutter_slidable: ^4.0.3
   shared_preferences: ^2.5.4
   google_fonts: ^8.0.1
+  bloc_test: ^10.0.0
+  mocktail: ^1.0.4
+  test: ^1.26.2
 
 bloc:
   rules:
